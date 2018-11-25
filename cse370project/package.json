@@ -1,0 +1,22 @@
+{
+ "name": "node-loginregister",
+ "main": "server.js",
+ "scripts": {
+  "start": "node ./server"
+ },
+ "dependencies": {
+  "bcrypt-nodejs": "*",
+  "body-parser": "*",
+  "connect-flash": "*",
+  "cookie-parser": "*",
+  "ejs": "*",
+  "express": "*",
+  "express-mysql-session": "*",
+  "express-session": "*",
+  "morgan": "*",
+  "mysql": "*",
+  "nodemon": "^1.18.6",
+  "passport": "*",
+  "passport-local": "*"
+ }
+}
